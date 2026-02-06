@@ -1,0 +1,29 @@
+{
+  "name": "distributed-task-q",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "devStart": "tsc && nodemon dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/pg": "^8.16.0",
+    "fastify": "^5.7.1",
+    "pg": "^8.17.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "jsdoc": "^4.0.5",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typedoc": "^0.28.16",
+    "typescript": "^5.9.3"
+  }
+}
