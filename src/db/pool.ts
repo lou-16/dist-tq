@@ -7,7 +7,6 @@ const pool = new Pool({
     port: 5432,
     password: process.env.PG_DB_PASSWORD
 });
-
 export const checkConnection = async () : Promise<void> => {
     console.log("[pool.ts] checking connection");
     try {

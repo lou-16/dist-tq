@@ -1,0 +1,11 @@
+{
+  "source": {
+    "include": ["src"],
+    "includePattern": ".+\\.ts$"
+  },
+  "plugins": ["node_modules/jsdoc/plugins/typescript"],
+  "opts": {
+    "destination": "docs",
+    "recurse": true
+  }
+}

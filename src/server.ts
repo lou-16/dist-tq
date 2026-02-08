@@ -11,4 +11,4 @@ app.get("/health", async () => {
     return ({ok : true})
 })
 
-await app.listen({port: 3000});
+await app.listen({port: 3000,});
